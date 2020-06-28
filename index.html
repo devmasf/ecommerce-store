@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>VanLife - Adventure Store</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="./assets/lib/bootstrap-4.4.1-dist/css/bootstrap.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- Fontawesome -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500;600;700&family=Gotu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Owl Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- jQuery -->
+    <script src="./assets/lib/jquery-3.4.1.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-expand-sm navbar-light fixed-top"
+    >
+      <a href="#" class="navbar-brand"
+        ><img src="./assets/imgs/logo-via-logohub.png" alt="logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navLinks"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              SHOP
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Accesories</a>
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Hiking</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Photography</a>
+            </div>
+          </li>
+        </ul>
+      <div class="container">
+        <div>
+          <a href=""><i class="fab fa-sistrix"></i></a>
+        </div>
+        <div>
+          <a href=""><i class="far fa-user"></i></a>
+        </div>
+        <div class="navbar-center">
+          <div class="cart-btn">
+            <span class="nav-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+            <div class="cart-items">0</div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Ready for the Road?</h1>
+        <button class="banner-btn">shop now</button>
+      </div>
+    </header>
+    <!-- End of Hero -->
+
+    <!-- Products -->
+    <section class="products">
+      <div class="section-title">
+        <h2>Our Featured Picks</h2>
+      </div>
+      <div class="products-center"></div>
+    </section>
+    <!-- End of Products -->
+
+    <!-- In Between -->
+    <div id="explore">
+      <button type="button" class="btn-lg">
+        <a href="">EXPLORE MORE</a>
+      </button>
+    </div>
+
+    <div id="middle"><hr /></div>
+    <!-- End of In Between -->
+
+    <!-- Carousel -->
+    <div class="wrapper">
+      <div class="section-title">
+        <h2>Explore the World</h2>
+      </div>
+      <div class="testimonial-carousel section-padding owl-carousel">
+        <div class="single-testi">
+          <div class="img-area">
+            <img src="./assets/imgs/nature/italy.jpg" alt="Photo by Jack Ward on Unsplash" />
+          </div>
+          <div class="img-title">
+            <h2>Manarola</h2>
+          </div>
+          <hr />
+          <div class="img-text">
+            <h3>Italy</h3>
+            <a href="https://www.italythisway.com/places/manarola.php"
+              class="btn btn-outline btn-sm">READ MORE</a>
+          </div>
+        </div>
+        <div class="single-testi">
+          <div class="img-area">
+            <img src="./assets/imgs/nature/phiphi.jpg"
+              alt="Photo by Alex Block on Unsplash" />
+          </div>
+          <div class="img-title">
+            <h2>Phi Phi Islands</h2>
+          </div>
+          <hr />
+          <div class="img-text">
+            <h3>Thailand</h3>
+            <a href="https://www.adventurouskate.com/ko-phi-phi-is-very-beautiful-and-may-kill-you/" class="btn btn-outline btn-sm">READ
+              MORE</a>
+          </div>
+        </div>
+        <div class="single-testi">
+          <div class="img-area">
+            <img src="./assets/imgs/nature/indonesia.jpg" alt="Photo by VisionPic .net from Pexels" />
+          </div>
+          <div class="img-title">
+            <h2>Hindu Temple Ulun Danu Bratan</h2>
+          </div>
+          <hr />
+          <div class="img-text">
+            <h3>Indonesia</h3>
+            <a href="https://www.indonesia.travel/us/en/destinations/bali-nusa-tenggara/bali/ulun-danu-beratan" class="btn btn-outline btn-sm">READ MORE</a>
+          </div>
+        </div>
+        <div class="single-testi">
+          <div class="img-area">
+            <img
+              src="./assets/imgs/nature/canada.jpg"
+              alt="Photo by Jaime Reimer from Pexels"
+            />
+          </div>
+          <div class="img-title">
+            <h2>Moraine Lake</h2>
+          </div>
+          <hr />
+          <div class="img-text">
+            <h3>Canada</h3>
+            <a
+              href="https://www.banfflakelouise.com/moraine-lake"
+              class="btn btn-outline btn-sm"
+              >READ MORE</a
+            >
+          </div>
+        </div>
+        <div class="single-testi">
+          <div class="img-area">
+            <img
+              src="./assets/imgs/nature/bolivia.jpg"
+              alt="Photo by scott dukette on Unsplash"
+            />
+          </div>
+          <div class="img-title">
+            <h2>Uyuni Salt Flats</h2>
+          </div>
+          <hr />
+          <div class="img-text">
+            <h3>Bolivia</h3>
+            <a
+              href="https://www.nationalgeographic.com/travel/destinations/south-america/bolivia/how-to-see-salar-de-uyuni-salt-flats-bolivia/"
+              class="btn btn-outline btn-sm"
+              >READ MORE</a
+            >
+          </div>
+        </div>
+        <div class="single-testi">
+          <div class="img-area">
+            <img
+              src="./assets/imgs/nature/mexico.jpg"
+              alt="Photo by Jared Rice on Unsplash"
+            />
+          </div>
+          <div class="img-title"><h2>Cenote Suytun</h2></div>
+          <hr />
+          <div class="img-text">
+            <h3>Mexico</h3>
+            <a
+              href="https://www.dreambigtravelfarblog.com/blog/cenote-suytun"
+              class="btn btn-outline btn-sm"
+              >READ MORE</a
+            >
+          </div>
+        </div>
+        <div class="single-testi">
+          <div class="img-area">
+            <img
+              src="./assets/imgs/nature/peru.jpg"
+              alt="Photo by Babak Fakhamzadeh on Unsplash"
+            />
+          </div>
+          <div class="img-title">
+            <h2>Machu Picchu</h2>
+          </div>
+          <hr />
+          <div class="img-text">
+            <h3>Peru</h3>
+            <a
+              href="https://www.nationalgeographic.com/travel/top-10/peru/machu-picchu/secrets/"
+              class="btn btn-outline btn-sm"
+              >READ MORE</a
+            >
+          </div>
+        </div>
+        <div class="single-testi">
+          <div class="img-area">
+            <img
+              src="./assets/imgs/nature/patagonia.jpg"
+              alt="Photo by Kristina Gain from Pexels"
+            />
+          </div>
+          <div class="img-title">
+            <h2>Perito Moreno Glacier</h2>
+          </div>
+          <hr />
+          <div class="img-text">
+            <h3>Argentina</h3>
+            <a
+              href="https://www.lonelyplanet.com/argentina/attractions/glaciar-perito-moreno/a/poi-sig/503430/362991"
+              class="btn btn-outline btn-sm"
+              >READ MORE</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="section-title">
+        <h2 id="title3">Stay Adventurous!</h2>
+      </div>
+    <!-- End of Carousel -->
+
+    <!-- Cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>My Cart</h2>
+        <hr>
+        <div class="cart-content"></div>
+        <div class="cart-footer">
+          <hr>
+          <h3>Total: $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart">clear cart</button>
+        </div>
+        <button class="purchase">proceed to purchase</button>
+      </div>
+    </div>
+    <!-- End of Cart -->
+
+    <!-- Footer -->
+    <section id="footer">
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <h4 lang="en">Shop</h4>
+            <ul>
+              <li><a href="#">Accesories</a></li>
+              <li><a href="#">Books</a></li>
+              <li><a href="#">Hiking</a></li>
+              <li><a href="#">Photography</a></li>
+              <li>
+                <a href="#">Gift Cards</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <h4>About</h4>
+            <ul>
+              <li>
+                <a href="#">Our Story</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Careers</a>
+              </li>
+              <li>
+                <a href="#">iOS App</a>
+              </li>
+              <li>
+                <a href="#">Android App</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <h4>Help</h4>
+            <ul>
+              <li>
+                <a href="#">FAQs</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+              <li>
+                <a href="#">Product Guides</a>
+              </li>
+              <li>
+                <a href="#">Customer Support</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col">
+            <img id="logo" src="./assets/imgs/logo-via-logohub.png" alt="logo" />
+            <div class="form-group">
+              <p>Sign up for our newsletter</p>
+              <input
+                id="email"
+                type="email"
+                name="subscribermail"
+                placeholder="Your Email Address"
+                required
+              /><button type="submit"><i class="fa fa-paper-plane"></i></button>
+            </div>
+            <ul class="social-menu list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCf1netb87P7Tyb6TPFCwXJw"><i class="fab fa-youtube"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/vanlifediariesinstagram/"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/maxandlee_/?hl=en"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/vanlife_diaries"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.pinterest.com/chatain06/eamon-bec/"><i class="fab fa-pinterest"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/mastromauro-f/"><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="container">
+      <footer>
+        <hr />
+        <p class="copyright">
+          © 2020 VanLife Adventures. All Rights Reserved.
+        </p>
+      </footer>
+    </div>
+    <!-- End of Copyright -->
+    <!-- End of Footer -->
+
+    <!-- Scripts -->
+    
+    <!-- JavaScript -->
+    <script src="./assets/js/app.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="./assets/lib/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- End of Scripts -->
+  </body>
+</html>

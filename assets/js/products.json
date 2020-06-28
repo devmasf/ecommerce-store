@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Journal",
+        "price": 10.99,
+        "description": "A cute Journal with more than 200 pages!",
+        "image": {
+          "fields": {
+            "file": { "url": "./assets/imgs/products/journal.jpg" }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "The North Fake 70",
+        "price": 150,
+        "description": "Make this awesome backpack your new moving house!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/imgs/products/backpack.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Compass",
+        "price": 50,
+        "description": "A Gold Compass to help you find your way through the road!",
+        "image": {
+          "fields": {
+            "file": { "url": "./assets/imgs/products/compass.jpg" }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Vintage Camera",
+        "price": 124.65,
+        "description": "An old-fashion camera for taking vintage photos during your trip!",
+        "image": {
+          "fields": {
+            "file": { "url": "./assets/imgs/products/camera.jpg" }
+          }
+        }
+      }
+    }
+  ]
+}
