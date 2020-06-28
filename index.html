@@ -13,9 +13,6 @@
       href="./assets/lib/bootstrap-4.4.1-dist/css/bootstrap.min.css"
     />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-
     <!-- Fontawesome -->
     <script
       defer
@@ -29,17 +26,14 @@
     />
 
     <!-- Owl Carousel -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    />
+    <link rel="stylesheet" href="/assets/lib/dist/assets/owl.carousel.min.css">
 
-    <!-- jQuery -->
-    <script src="./assets/lib/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="/assets/lib/dist/assets/owl.theme.default.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+   
   </head>
 
   <body>
@@ -109,7 +103,7 @@
     <!-- End of Navbar -->
 
     <!-- Hero -->
-    <header class="hero">
+    <header class="lazy" id="bg-image">
       <div class="banner">
         <h1 class="banner-title">Ready for the Road?</h1>
         <button class="banner-btn">shop now</button>
@@ -144,7 +138,7 @@
       <div class="testimonial-carousel section-padding owl-carousel">
         <div class="single-testi">
           <div class="img-area">
-            <img src="./assets/imgs/nature/italy.jpg" alt="Photo by Jack Ward on Unsplash" />
+            <img class="lazy" data-src="./assets/imgs/nature/italy.jpg" alt="Photo by Jack Ward on Unsplash" />
           </div>
           <div class="img-title">
             <h2>Manarola</h2>
@@ -158,7 +152,7 @@
         </div>
         <div class="single-testi">
           <div class="img-area">
-            <img src="./assets/imgs/nature/phiphi.jpg"
+            <img class="lazy" data-src="./assets/imgs/nature/phiphi.jpg"
               alt="Photo by Alex Block on Unsplash" />
           </div>
           <div class="img-title">
@@ -173,7 +167,7 @@
         </div>
         <div class="single-testi">
           <div class="img-area">
-            <img src="./assets/imgs/nature/indonesia.jpg" alt="Photo by VisionPic .net from Pexels" />
+            <img class="lazy" data-src="./assets/imgs/nature/indonesia.jpg" alt="Photo by VisionPic .net from Pexels" />
           </div>
           <div class="img-title">
             <h2>Hindu Temple Ulun Danu Bratan</h2>
@@ -187,7 +181,7 @@
         <div class="single-testi">
           <div class="img-area">
             <img
-              src="./assets/imgs/nature/canada.jpg"
+              class="lazy" data-src="./assets/imgs/nature/canada.jpg"
               alt="Photo by Jaime Reimer from Pexels"
             />
           </div>
@@ -207,7 +201,7 @@
         <div class="single-testi">
           <div class="img-area">
             <img
-              src="./assets/imgs/nature/bolivia.jpg"
+              class="lazy" data-src="./assets/imgs/nature/bolivia.jpg"
               alt="Photo by scott dukette on Unsplash"
             />
           </div>
@@ -227,7 +221,7 @@
         <div class="single-testi">
           <div class="img-area">
             <img
-              src="./assets/imgs/nature/mexico.jpg"
+              class="lazy" data-src="./assets/imgs/nature/mexico.jpg"
               alt="Photo by Jared Rice on Unsplash"
             />
           </div>
@@ -245,7 +239,7 @@
         <div class="single-testi">
           <div class="img-area">
             <img
-              src="./assets/imgs/nature/peru.jpg"
+              class="lazy" data-src="./assets/imgs/nature/peru.jpg"
               alt="Photo by Babak Fakhamzadeh on Unsplash"
             />
           </div>
@@ -265,7 +259,7 @@
         <div class="single-testi">
           <div class="img-area">
             <img
-              src="./assets/imgs/nature/patagonia.jpg"
+              class="lazy" data-src="./assets/imgs/nature/patagonia.jpg"
               alt="Photo by Kristina Gain from Pexels"
             />
           </div>
@@ -411,6 +405,9 @@
     <!-- End of Footer -->
 
     <!-- Scripts -->
+
+    <!-- jQuery -->
+    <script src="./assets/lib/jquery-3.4.1.min.js"></script>
     
     <!-- JavaScript -->
     <script src="./assets/js/app.js"></script>
@@ -419,7 +416,7 @@
     <script src="./assets/lib/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
 
     <!-- Owl Carousel -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="/assets/lib/dist/owl.carousel.min.js"></script>
 
     <!-- End of Scripts -->
   </body>
