@@ -185,14 +185,10 @@ a:hover {
 /* --------------- End of Navbar ---------------- */
 
 /* --------------- Hero ---------------- */
-
-#bg-image .lazy {
-  background-image: none;
-  background-color: #f1f1fa;
-}
-#bg-image {
+.hero {
   min-height: calc(108vh - 60px);
-  background: url("/assets/imgs/hero-bc.JPG") center/cover no-repeat;
+  background: url("https://images.unsplash.com/photo-1527786356703-4b100091cd2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60")
+    center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
